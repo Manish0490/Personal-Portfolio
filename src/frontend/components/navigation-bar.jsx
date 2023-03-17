@@ -1,6 +1,6 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
 import { Button } from "@material-ui/core";
 import "../css/navigator.css";
 
@@ -38,7 +38,7 @@ export default function NavBarComp(props) {
         </ul>
       </div>
       <section class="banner">
-        <img src={require("../assets/myPhoto.jpg")} alt="My Profile Photo" />
+        <img src={require("../assets/myPhoto.jpg")} />
         <div>
           <h2>Manish Kumar Reddy Gangula</h2>
           <h3>
